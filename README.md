@@ -1,13 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Sahil%20Ansari&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Node.js%20Developer%20%7C%20npm%20Author%20%7C%20India%20%F0%9F%87%AE%F0%9F%87%B3&descAlignY=60&descSize=16&descColor=c9d1d9" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Namaste!+%F0%9F%99%8F+Main+Sahil+hoon;Node.js+aur+Python+developer+hoon;sahilchat-fca+npm+package+banaya+hai;Facebook+API+aur+automation+mein+kaam+karta+hoon;India+%F0%9F%87%AE%F0%9F%87%B3+se+hoon" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Sahil%20Ansari&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Node.js%20Developer%20%7C%20npm%20Author%20%7C%20India%20%F0%9F%87%AE%F0%9F%87%B3&descAlignY=62&descSize=17&descColor=c9d1d9" width="100%"/>
 
 <br/>
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Hi+there!+I'm+Sahil+%F0%9F%91%8B;Node.js+%26+Python+Developer;Creator+of+sahilchat-fca+%F0%9F%93%A6;Facebook+API+%7C+Automation+%7C+Bots;Always+building+something+new+%F0%9F%9A%80" alt="Typing SVG" />
+
+<br/><br/>
+
 [![GitHub followers](https://img.shields.io/github/followers/S4hiilAns4ri?style=for-the-badge&logo=github&color=58a6ff&labelColor=0d1117)](https://github.com/S4hiilAns4ri?tab=followers)
-[![npm](https://img.shields.io/npm/v/sahilchat-fca?style=for-the-badge&logo=npm&color=cb3837&labelColor=0d1117&label=npm)](https://npmjs.com/package/sahilchat-fca)
+[![npm version](https://img.shields.io/npm/v/sahilchat-fca?style=for-the-badge&logo=npm&color=cb3837&labelColor=0d1117)](https://npmjs.com/package/sahilchat-fca)
 [![npm downloads](https://img.shields.io/npm/dt/sahilchat-fca?style=for-the-badge&logo=npm&color=2ea44f&labelColor=0d1117&label=downloads)](https://npmjs.com/package/sahilchat-fca)
 [![Profile Views](https://komarev.com/ghpvc/?username=S4hiilAns4ri&style=for-the-badge&color=blueviolet&labelColor=0d1117)](https://github.com/S4hiilAns4ri)
 
@@ -15,23 +17,25 @@
 
 ---
 
-## 🙋 Apne baare mein
+## 👨‍💻 About Me
 
-<img align="right" width="350" src="https://github-readme-stats.vercel.app/api?username=S4hiilAns4ri&show_icons=true&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true" />
+<img align="right" width="350" src="https://github-readme-stats.vercel.app/api?username=S4hiilAns4ri&show_icons=true&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" />
 
-- 👋 **Naam:** Sahil Ansari
-- 🌍 **Location:** India 🇮🇳
-- 💻 **Kaam:** Node.js developer & automation tools
+- 👋 **Name:** Sahil Ansari
+- 🌍 **From:** India 🇮🇳
+- 💻 **What I do:** Build Node.js tools & automation scripts
 - 📦 **npm Package:** [sahilchat-fca](https://npmjs.com/package/sahilchat-fca)
-- 🔧 **Kya banaata hoon:** Facebook API tools, bots, automation scripts
-- 🌱 **Seekh raha hoon:** Backend development & API design
-- 📫 **Contact:** GitHub pe hi milenge
+- 🔧 **Interests:** Facebook API, bots, automation
+- 🌱 **Learning:** Backend dev & API design
+- 💬 **Ask me about:** Node.js, npm packages, Facebook API
+
+<br/><br/><br/>
 
 <br clear="right"/>
 
 ---
 
-## 🚀 Mera Project — sahilchat-fca
+## 🌟 Featured Project
 
 <div align="center">
 
@@ -39,8 +43,7 @@
 
 </div>
 
-Yeh ek **Facebook Chat API** hai Node.js ke liye.  
-Cookie se login hota hai, group mein message bhej sakte ho, comment kar sakte ho.
+A **Facebook Chat API** for Node.js — cookie-based login, group messaging, comment automation, MQTT real-time listener.
 
 ```bash
 npm install sahilchat-fca
@@ -49,7 +52,8 @@ npm install sahilchat-fca
 ```js
 const login = require('sahilchat-fca');
 
-login({ cookie: 'TUMHARI_FB_COOKIE' }, (err, api) => {
+login({ cookie: 'YOUR_FB_COOKIE' }, (err, api) => {
+  api.getBotInfo(info => console.log(`Logged in: ${info.name}`));
   api.sendMessage('Hello! 👋', 'GROUP_ID');
 });
 ```
@@ -62,6 +66,12 @@ login({ cookie: 'TUMHARI_FB_COOKIE' }, (err, api) => {
 
 <img src="https://skillicons.dev/icons?i=nodejs,js,python,git,github,linux,vscode,npm&theme=dark&perline=8" />
 
+<br/><br/>
+
+![Facebook API](https://img.shields.io/badge/Facebook_API-1877F2?style=flat-square&logo=facebook&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-MQTT-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-Bots-6f42c1?style=flat-square&logo=probot&logoColor=white)
+
 </div>
 
 ---
@@ -70,14 +80,14 @@ login({ cookie: 'TUMHARI_FB_COOKIE' }, (err, api) => {
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=S4hiilAns4ri&theme=github-dark-blue&border=30363d&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
-<img width="44%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=S4hiilAns4ri&layout=compact&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=S4hiilAns4ri&theme=github-dark-blue&border=30363d&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
+<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=S4hiilAns4ri&layout=compact&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
 
 </div>
 
 ---
 
-## 🏆 Achievements
+## 🏆 GitHub Trophies
 
 <div align="center">
 
@@ -100,6 +110,11 @@ login({ cookie: 'TUMHARI_FB_COOKIE' }, (err, api) => {
 <div align="center">
 
 **Sahil Ansari · India 🇮🇳**
+
+[![GitHub](https://img.shields.io/badge/GitHub-@S4hiilAns4ri-181717?style=for-the-badge&logo=github)](https://github.com/S4hiilAns4ri)
+[![npm](https://img.shields.io/badge/npm-sahilchat--fca-CB3837?style=for-the-badge&logo=npm)](https://npmjs.com/package/sahilchat-fca)
+
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
